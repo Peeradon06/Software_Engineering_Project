@@ -27,7 +27,7 @@
                     echo "<td>" .$row["PNAME"] .  "</td> ";
                     echo "<td>" .$row["PTYPE"] .  "</td> ";
                     echo "<td>" .$row["PSTATUS"] .  "</td> ";
-                   // echo "<td>" .$row["Repair_status"] .  "</td> ";
+                   
                     //แก้ไขข้อมูล
                     echo "<td><a href='admin.php?act=edit&ID=$row[0]' class='btn btn-warning btn-xs'>แก้ไข</a></td> ";
                     

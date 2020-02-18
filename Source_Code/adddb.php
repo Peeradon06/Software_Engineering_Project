@@ -5,7 +5,7 @@ $PID = $_POST['PID'];
 $PNAME = $_POST['PNAME'];
 $PTYPE = $_POST['PTYPE'];
 $PSTATUS = $_POST['PSTATUS'];
-//$Repair_status = $_POST['Repair_status'];
+
 
   $check = "
   SELECT  PID
@@ -18,7 +18,7 @@ $PSTATUS = $_POST['PSTATUS'];
     if($num > 0)
     {
     echo "<script>";
-    echo "alert(' รหัสอุปกรณ์ซ้ำกรุณากรอกข้อมูลใหม่ !');";
+    echo "alert('Repeated Id');";
     echo "window.history.back();";
     echo "</script>";
     }else{
@@ -36,17 +36,11 @@ $sql ="INSERT INTO productlist
     mysqli_close($con);
 
    }
-
+   
     if($result){
       echo "<script>";
       echo "alert('Add Succesfuly');";
       echo "window.location ='admin.php'; ";
       echo "</script>";
-    } else {
-      
-      echo "<script>";
-      echo "alert('ERROR!');";
-      echo "window.location ='admin.php'; ";
-      echo "</script>";
-    }
+    } 
 ?>

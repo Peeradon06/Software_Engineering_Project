@@ -2,7 +2,6 @@
 <html>
 <head>
 <?php include('h.php');
-include('condb.php');
 error_reporting( error_reporting() & ~E_NOTICE );?>
 <head>
   <body>

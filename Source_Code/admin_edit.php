@@ -7,8 +7,8 @@ include('condb.php');  //ไฟล์เชื่อมต่อกับ databa
   $PID = $_REQUEST["PID"];
   $PNAME = $_REQUEST["PNAME"];
   $PTYPE = $_REQUEST["PTYPE"];
-  $Borrowing_status = $_REQUEST["PSTATUS"];
-  //$Repair_status = $_REQUEST["Repair_status"];
+  $PSTATUS = $_REQUEST["PSTATUS"];
+
 
 //ทำการปรับปรุงข้อมูลที่จะแก้ไขลงใน database 
   

@@ -17,7 +17,7 @@ function fncSubmit()
         alert('กรุณากรอกประเภทของอุปกรณ์');
         return false;
     }
-    if(document.getElementById('Borrowing_status').value == "")
+    if(document.getElementById('PSTATUS').value == "")
     {
         alert('กรุณากรอกสถานะของอุปกรณ์');
         return false;
@@ -28,7 +28,7 @@ function fncSubmit()
           <div class="form-group">
             <div class="col-sm-3" align="right"></div>
             <div class="col-sm-6" align="left">
-              <input  name="PID" type="text"  class="form-control" id="PID" placeholder="Product ID" pattern="^[a-zA-Z0-9]+$" title="ภาษาอังกฤษหรือตัวเลขเท่านั้น" minlength="2"  />
+              <input  name="PID" type="text"  class="form-control" id="PID" placeholder="Product ID" title="ภาษาอังกฤษหรือตัวเลขเท่านั้น" minlength="2"  />
             </div>
           </div>
           
@@ -51,14 +51,6 @@ function fncSubmit()
               <input  name="PSTATUS" type="text"  class="form-control" id="PSTATUS" placeholder="Status" />
             </div>
           </div>
-
-          <!-- <div class="form-group">
-            <div class="col-sm-3" align="right"></div>
-            <div class="col-sm-6" align="left">
-              <input  name="Repair_status" type="text" required class="form-control" id="Repair_status" placeholder="Repair Status" />
-            </div>
-          </div> -->
-
 
           <div class="form-group">
             <div class="col-sm-3"> </div>

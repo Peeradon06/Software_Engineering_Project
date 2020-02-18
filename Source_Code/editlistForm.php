@@ -23,7 +23,7 @@ function fncSubmit()
         alert('กรุณากรอกประเภทของอุปกรณ์');
         return false;
     }
-    if(document.getElementById('Borrowing_status').value == "")
+    if(document.getElementById('PSTATUS').value == "")
     {
         alert('กรุณากรอกสถานะของอุปกรณ์');
         return false;
@@ -47,7 +47,7 @@ function fncSubmit()
               <input  name="PNAME" type="text"  class="form-control" id="PNAME" value="<?=$PNAME;?>" placeholder="Product Name"  minlength="2" />
             </div>
           </div>
-
+          
           <div class="form-group">
             <div class="col-sm-3" align="right"></div>
             <div class="col-sm-6" align="left">
@@ -58,7 +58,7 @@ function fncSubmit()
           <div class="form-group">
             <div class="col-sm-3" align="right"></div>
             <div class="col-sm-6" align="left">
-              <input  name="PSTATUS" type="text"  class="form-control" id="Borrowing_status" value="<?=$PSTATUS ;?>" placeholder="PSTATUS" />
+              <input  name="PSTATUS" type="text"  class="form-control" id="PSTATUS" value="<?=$PSTATUS;?>" placeholder="Status" />
             </div>
           </div>
 
