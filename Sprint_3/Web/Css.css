@@ -1,0 +1,143 @@
+td {
+    vertical-align: top;
+}
+
+.table-fa {
+    text-align: center;
+}
+
+/* Button */
+
+.btn-list {
+    width: 150px;
+    background-color: #9dc6a7;
+}
+
+.btn-list:hover {
+    background-color: #ffd271;
+}
+
+.btn-add {
+    width: 150px;
+    background-color: #8ac6d1;
+}
+
+.btn-add:hover {
+    background-color: #ffa34d;
+}
+
+.btn-infoo {
+    background-color: #ffd271;
+}
+
+.btn-infoo:hover {
+    background-color: #9dc6a7;
+}
+
+.btn-che {
+    background-color: #8ac6d1;
+}
+
+.btn-che:hover {
+    background-color: #ffd271;
+}
+
+.btn-sub {
+    background-color: #ffd271;
+}
+
+.btn-sub:hover {
+    background-color: #ffc5a1;
+}
+
+.btn-del {
+    background-color: #ea9085;
+}
+
+.btn-del:hover {
+    background-color: #9dc6a7; 
+}
+
+/* ------------------------------------- */
+
+/* Thead / Header Color */
+
+.thead-color {
+    background-color: #9dc6a7;
+}
+
+.bg-head {
+    background-color: #d1f5d3;
+}
+
+/* ------------------------------------- */
+
+.iframe-size {
+    width: 1080px;
+    height: auto;
+}
+
+.hr {
+    width: 720px;
+}
+
+.hr2 {
+    width: 200px;
+}
+
+.container {
+    font-size: 20px;
+}
+
+
+.td-info {
+    width: auto;
+}
+
+.box1 {
+    float: left
+}
+
+.box2 {
+    float: right;
+}
+
+.clear {
+    clear: both;
+    line-height: 0;
+    height: 0;
+    font-size: 1px;
+}
+
+div.wid-chec {
+    width: 200px;
+}
+
+.form-control {
+    width: 300px;
+}
+
+/*.info {
+    padding-left: 1.5em;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}*/
+
+/* Spinner */
+
+.input-no-spinner {
+    -moz-appearance: textfield;
+}
+
+.input-no-spinner::-webkit-outer-spin-button,
+.input-no-spinner::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* ------------------------------------- */
+
+.errortext {
+    color: red;
+}

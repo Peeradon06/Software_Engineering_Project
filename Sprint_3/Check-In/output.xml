@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.2 (Python 3.7.4 on win32)" generated="20200317 22:19:23.779" rpa="false">
+<suite id="s1" name="Check In" source="E:\ปี 3\SoftwareEn\Sprint_3\Check-In\check_in.robot">
+<test id="s1-t1" name="Valid Date">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>http://10.199.66.227/SoftEn2020/Sec02/SEP/checkin_list.php?ID=5602100000413</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20200317 22:19:23.970" level="INFO">Opening browser 'Chrome' to base url 'http://10.199.66.227/SoftEn2020/Sec02/SEP/checkin_list.php?ID=5602100000413'.</msg>
+<status status="PASS" starttime="20200317 22:19:23.970" endtime="20200317 22:19:31.322"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${CHECKINFO}</arg>
+</arguments>
+<msg timestamp="20200317 22:19:31.323" level="INFO">Clicking element 'xpath://html/body/div/div/div/div/a[2]'.</msg>
+<status status="PASS" starttime="20200317 22:19:31.323" endtime="20200317 22:19:31.551"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>${CHECKFIELD}</arg>
+<arg>02/02/2020</arg>
+</arguments>
+<msg timestamp="20200317 22:19:31.552" level="INFO">Typing text '02/02/2020' into text field 'CheckField'.</msg>
+<status status="PASS" starttime="20200317 22:19:31.552" endtime="20200317 22:19:31.655"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${CHECKSUB}</arg>
+</arguments>
+<msg timestamp="20200317 22:19:31.656" level="INFO">Clicking element 'xpath://html/body/div/form/div/div/div[2]/div/input'.</msg>
+<status status="PASS" starttime="20200317 22:19:31.656" endtime="20200317 22:19:31.717"></status>
+</kw>
+<kw name="Handle Alert" library="SeleniumLibrary">
+<doc>Handles the current alert and returns its message.</doc>
+<arguments>
+<arg>accept</arg>
+</arguments>
+<status status="PASS" starttime="20200317 22:19:31.717" endtime="20200317 22:19:31.728"></status>
+</kw>
+<kw name="Go To" library="SeleniumLibrary">
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<arguments>
+<arg>http://10.199.66.227/SoftEn2020/Sec02/SEP/info.php?ID=5602100000413</arg>
+</arguments>
+<msg timestamp="20200317 22:19:31.731" level="INFO">Opening url 'http://10.199.66.227/SoftEn2020/Sec02/SEP/info.php?ID=5602100000413'</msg>
+<status status="PASS" starttime="20200317 22:19:31.730" endtime="20200317 22:19:32.169"></status>
+</kw>
+<kw name="Page Should Contain" library="SeleniumLibrary">
+<doc>Verifies that current page contains ``text``.</doc>
+<arguments>
+<arg>Available</arg>
+</arguments>
+<msg timestamp="20200317 22:19:32.193" level="INFO">Current page contains text 'Available'.</msg>
+<status status="PASS" starttime="20200317 22:19:32.170" endtime="20200317 22:19:32.193"></status>
+</kw>
+<status status="PASS" starttime="20200317 22:19:23.969" endtime="20200317 22:19:32.194" critical="yes"></status>
+</test>
+<test id="s1-t2" name="Empty Date">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>http://10.199.66.227/SoftEn2020/Sec02/SEP/checkin_list.php?ID=5502130000406</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20200317 22:19:32.197" level="INFO">Opening browser 'Chrome' to base url 'http://10.199.66.227/SoftEn2020/Sec02/SEP/checkin_list.php?ID=5502130000406'.</msg>
+<status status="PASS" starttime="20200317 22:19:32.196" endtime="20200317 22:19:39.952"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${CHECKINFO}</arg>
+</arguments>
+<msg timestamp="20200317 22:19:39.953" level="INFO">Clicking element 'xpath://html/body/div/div/div/div/a[2]'.</msg>
+<status status="PASS" starttime="20200317 22:19:39.953" endtime="20200317 22:19:40.143"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${CHECKSUB}</arg>
+</arguments>
+<msg timestamp="20200317 22:19:40.143" level="INFO">Clicking element 'xpath://html/body/div/form/div/div/div[2]/div/input'.</msg>
+<status status="PASS" starttime="20200317 22:19:40.143" endtime="20200317 22:19:40.210"></status>
+</kw>
+<kw name="Handle Alert" library="SeleniumLibrary">
+<doc>Handles the current alert and returns its message.</doc>
+<arguments>
+<arg>accept</arg>
+</arguments>
+<status status="PASS" starttime="20200317 22:19:40.211" endtime="20200317 22:19:40.220"></status>
+</kw>
+<kw name="Go To" library="SeleniumLibrary">
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<arguments>
+<arg>http://10.199.66.227/SoftEn2020/Sec02/SEP/info.php?ID=5602100000406</arg>
+</arguments>
+<msg timestamp="20200317 22:19:40.221" level="INFO">Opening url 'http://10.199.66.227/SoftEn2020/Sec02/SEP/info.php?ID=5602100000406'</msg>
+<status status="PASS" starttime="20200317 22:19:40.221" endtime="20200317 22:19:40.596"></status>
+</kw>
+<kw name="Page Should Contain" library="SeleniumLibrary">
+<doc>Verifies that current page contains ``text``.</doc>
+<arguments>
+<arg>Borrowed</arg>
+</arguments>
+<msg timestamp="20200317 22:19:40.619" level="INFO">Current page contains text 'Borrowed'.</msg>
+<status status="PASS" starttime="20200317 22:19:40.596" endtime="20200317 22:19:40.619"></status>
+</kw>
+<status status="PASS" starttime="20200317 22:19:32.196" endtime="20200317 22:19:40.620" critical="yes"></status>
+</test>
+<test id="s1-t3" name="Invalid Date #1">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>http://10.199.66.227/SoftEn2020/Sec02/SEP/checkin_list.php?ID=5602100000407</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20200317 22:19:40.622" level="INFO">Opening browser 'Chrome' to base url 'http://10.199.66.227/SoftEn2020/Sec02/SEP/checkin_list.php?ID=5602100000407'.</msg>
+<status status="PASS" starttime="20200317 22:19:40.621" endtime="20200317 22:19:47.448"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${CHECKINFO}</arg>
+</arguments>
+<msg timestamp="20200317 22:19:47.449" level="INFO">Clicking element 'xpath://html/body/div/div/div/div/a[2]'.</msg>
+<status status="PASS" starttime="20200317 22:19:47.448" endtime="20200317 22:19:47.688"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>${CHECKFIELD}</arg>
+<arg>005/02/22214</arg>
+</arguments>
+<msg timestamp="20200317 22:19:47.689" level="INFO">Typing text '005/02/22214' into text field 'CheckField'.</msg>
+<status status="PASS" starttime="20200317 22:19:47.688" endtime="20200317 22:19:47.808"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${CHECKSUB}</arg>
+</arguments>
+<msg timestamp="20200317 22:19:47.809" level="INFO">Clicking element 'xpath://html/body/div/form/div/div/div[2]/div/input'.</msg>
+<status status="PASS" starttime="20200317 22:19:47.808" endtime="20200317 22:19:47.867"></status>
+</kw>
+<kw name="Alert Should Be Present" library="SeleniumLibrary">
+<doc>Verifies that an alert is present and by default, accepts it.</doc>
+<arguments>
+<arg>Please enter valid date ( ex. 02/02/2020 )</arg>
+</arguments>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20200317 22:19:53.228" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20200317 22:19:52.893" endtime="20200317 22:19:53.228"></status>
+</kw>
+<msg timestamp="20200317 22:19:53.229" level="FAIL">Alert not found in 5 seconds.</msg>
+<status status="FAIL" starttime="20200317 22:19:47.868" endtime="20200317 22:19:53.229"></status>
+</kw>
+<status status="FAIL" starttime="20200317 22:19:40.621" endtime="20200317 22:19:53.230" critical="yes">Alert not found in 5 seconds.</status>
+</test>
+<test id="s1-t4" name="Invalid Date #2">
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>${CHECKFIELD}</arg>
+<arg>%$##^@#@$</arg>
+</arguments>
+<msg timestamp="20200317 22:19:53.235" level="INFO">Typing text '%$##^@#@$' into text field 'CheckField'.</msg>
+<status status="PASS" starttime="20200317 22:19:53.235" endtime="20200317 22:19:53.324"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${CHECKSUB}</arg>
+</arguments>
+<msg timestamp="20200317 22:19:53.325" level="INFO">Clicking element 'xpath://html/body/div/form/div/div/div[2]/div/input'.</msg>
+<status status="PASS" starttime="20200317 22:19:53.325" endtime="20200317 22:19:53.372"></status>
+</kw>
+<kw name="Alert Should Be Present" library="SeleniumLibrary">
+<doc>Verifies that an alert is present and by default, accepts it.</doc>
+<arguments>
+<arg>Please enter valid date ( ex. 02/02/2020 )</arg>
+</arguments>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20200317 22:19:58.712" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-2.png"&gt;&lt;img src="selenium-screenshot-2.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20200317 22:19:58.397" endtime="20200317 22:19:58.712"></status>
+</kw>
+<msg timestamp="20200317 22:19:58.713" level="FAIL">Alert not found in 5 seconds.</msg>
+<status status="FAIL" starttime="20200317 22:19:53.373" endtime="20200317 22:19:58.713"></status>
+</kw>
+<status status="FAIL" starttime="20200317 22:19:53.234" endtime="20200317 22:19:58.714" critical="yes">Alert not found in 5 seconds.</status>
+</test>
+<test id="s1-t5" name="Cancel Check">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>http://10.199.66.227/SoftEn2020/Sec02/SEP/checkin_list.php?ID=5602100000407</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20200317 22:19:58.719" level="INFO">Opening browser 'Chrome' to base url 'http://10.199.66.227/SoftEn2020/Sec02/SEP/checkin_list.php?ID=5602100000407'.</msg>
+<status status="PASS" starttime="20200317 22:19:58.718" endtime="20200317 22:20:06.141"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${CHECKINFO}</arg>
+</arguments>
+<msg timestamp="20200317 22:20:06.143" level="INFO">Clicking element 'xpath://html/body/div/div/div/div/a[2]'.</msg>
+<status status="PASS" starttime="20200317 22:20:06.142" endtime="20200317 22:20:06.315"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${BACK}</arg>
+</arguments>
+<msg timestamp="20200317 22:20:06.317" level="INFO">Clicking element 'xpath://html/body/div/form/div/div/div[2]/div/a'.</msg>
+<status status="PASS" starttime="20200317 22:20:06.317" endtime="20200317 22:20:06.375"></status>
+</kw>
+<kw name="Page Should Contain" library="SeleniumLibrary">
+<doc>Verifies that current page contains ``text``.</doc>
+<arguments>
+<arg>Borrowed</arg>
+</arguments>
+<msg timestamp="20200317 22:20:06.481" level="INFO">Current page contains text 'Borrowed'.</msg>
+<status status="PASS" starttime="20200317 22:20:06.376" endtime="20200317 22:20:06.481"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200317 22:20:06.482" endtime="20200317 22:20:08.557"></status>
+</kw>
+<status status="PASS" starttime="20200317 22:19:58.718" endtime="20200317 22:20:08.559" critical="yes"></status>
+</test>
+<status status="FAIL" starttime="20200317 22:19:23.781" endtime="20200317 22:20:08.569"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="3" fail="2">Critical Tests</stat>
+<stat pass="3" fail="2">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="3" fail="2" id="s1" name="Check In">Check In</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
